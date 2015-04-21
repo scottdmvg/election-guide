@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.ec-profile-image {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	vertical-align:; 
+	
+}
+
+.ec-wrapper {
+	width: 95%;
+	margin: 0 auto;
+	padding: 2.5%;	
+}
+
+.ec-race-dropdown {
+	color: #333333;
+  	background-color: #FAA634;
+	border-color: #ddd;	
+	
+	width: 50%;
+	margin: 0 auto 40px auto;
+}
+
+.ec-race-dropdown ul {
+	padding:2px 5px;
+  position: relative; 
+  height:auto;	
+  text-align: left; 
+  width: 100%;
+  
+}
+
+.ec-race-dropdown ul li {
+	padding: 4%;
+	
+}
+
+.ec-race-dropdown ul ul {
+	list-style-type:none;
+	margin:0;
+	padding: 0 0 0 6%;
+	position: absolute;
+	top: 100%;
+	right: 0;
+	visibility:hidden;
+	opacity:0;
+	transition:visibility 0s linear 0.5s,opacity 0.5s linear;	
+	width: 100%;
+	background-color: #FAA634;
+}
+
+.ec-race-dropdown ul li:hover > ul, .ec-race-dropdown ul li:active > ul {
+		 visibility:visible;
+  opacity:0.9;
+  transition-delay:0s;
+  background-color: #FAA634;
+}
+
+.ec.race-dropdown ul ul li {
+	background-color: #FAA634;
+
+	
+}
