@@ -7,7 +7,10 @@
 	height: 100%;
 	vertical-align:; 
 	
+	
 }
+
+
 
 .ec-wrapper {
 	width: 95%;
@@ -21,7 +24,7 @@
 	border-color: #ddd;	
 	
 	width: 50%;
-	margin: 0 auto 40px auto;
+	margin: 0 auto 30px auto;
 }
 
 .ec-race-dropdown ul {
@@ -34,14 +37,14 @@
 }
 
 .ec-race-dropdown ul li {
-	padding: 4%;
+	padding: 5%;
 	
 }
 
 .ec-race-dropdown ul ul {
 	list-style-type:none;
 	margin:0;
-	padding: 0 0 0 6%;
+	padding: 0 0 0 17.5%;
 	position: absolute;
 	top: 100%;
 	right: 0;
