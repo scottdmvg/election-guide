@@ -73,10 +73,17 @@
 	
     <div class="panel-group" id="accordion">
         <div class="panel panel-default">
-            <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" data-target="#collapseOne" onclick="_gaq.push(['_trackEvent', 'Accordion', 'accordion-panel-click', window.location.pathname,, true]);">
-                <h4 class="panel-title">
-                    <div class="icon-arrow-down2">&nbsp;</div>
-                    <div class="panel-title"><img src="images/abraham-rs.jpg" alt="abraham" class="img-circle ec-profile-img" style="margin: 0px 0px 5px 0px; float: left;" height="24px" width="20px" /> &nbsp;Lynne Abraham (D)</div>
+            <div class="panel-heading ec-panel-wrap" data-toggle="collapse" data-parent="#accordion" data-target="#collapseOne" onclick="_gaq.push(['_trackEvent', 'Accordion', 'accordion-panel-click', window.location.pathname,, true]);">
+                <h4 class="panel-title ec-panel-grouping clearfix">
+                    <span class="icon-arrow-down2 ec-arrow-down">
+                    	
+                    </span>
+                    <span class="ec-profile-image">
+                    	<img src="images/abraham-rs.jpg" alt="abraham" class="img-circle ec-image" />
+                    </span>    
+                    <span class="panel-title ec-name"> 
+                    	&nbsp;Lynne Abraham (D)
+                    </span>
                 </h4>
             </div>
             <div id="collapseOne" class="panel-collapse collapse">

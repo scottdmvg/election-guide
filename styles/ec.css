@@ -2,14 +2,44 @@
 /* CSS Document */
 
 .ec-profile-image {
-	margin: 0;
-	padding: 0;
-	height: 100%;
-	vertical-align:; 
+	float: left;
+	width: 24px;
+	height: auto;
 	
 	
 }
 
+.ec-image {
+		float: left;
+		margin: 0;
+		
+}
+
+.ec-panel-wrap {
+	padding: 10px;
+	
+}
+
+
+.ec-panel-grouping {
+	clear: both;
+}
+
+.ec-arrow-down {
+	margin-bottom: 0;
+	margin-top: 4px;
+
+	 
+}
+
+
+.ec-name {
+	float: left;	
+	width: 60%;
+	height: auto;
+	padding-top: 5px;
+	padding-left: 8px;
+}
 
 
 .ec-wrapper {
