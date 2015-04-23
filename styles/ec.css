@@ -17,7 +17,7 @@
 
 .ec-panel-wrap {
 	padding: 10px;
-	
+	position: relative;
 }
 
 
@@ -94,6 +94,66 @@
 
 .ec.race-dropdown ul ul li {
 	background-color: #FAA634;
+}
 
+
+.ec-panel-wrap:hover + .ec-collapse, .ec-panel-wrap:active + .ec-collapse {
+	display: block;	
+	position: absoulte;
 	
 }
+
+
+
+.ec-bullet-list {
+	list-style: disc;
+	width: 90%;
+	padding: 2%;
+	margin-left: 10px;
+}
+
+.ec-bullet-list li {
+	margin-bottom: 10px;
+}
+
+
+.ec-hide { display: none }
+
+input[type="checkbox"]:checked + .ec-collapse {
+	display: block;
+	position: absolute;	
+}
+
+/*
+.ec-hide { display: none }
+
+.ec-toggle {
+  width: 100%;
+  display: block;
+  height: 2.5em;
+  line-height: 2.5em;
+  
+  background: #333;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  
+  transition: background .3s ease;
+}
+.ec-toggle:hover { background: #222 }
+.ec-inner {
+  text-align: left;
+  padding: 0 1em;
+  overflow: hidden;
+  max-height: 0;
+  
+  transition: max-height .6s ease;
+}
+.ec-inner *:first-child { margin-top: 1em }
+.ec-inner *:last-child { margin-bottom: 1em }
+
+.panel-group input[type="checkbox"]:checked + .ec-inner {
+  max-height: 350px; 
+  
+  */
