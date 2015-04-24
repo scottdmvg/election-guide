@@ -1,18 +1,68 @@
 @charset "UTF-8";
 /* CSS Document */
 
+
+.ec-wrapper {
+	width: 95%;
+	margin: 0 auto;
+	padding: 2.5%;	
+	max-width: 500px;
+}
+
+.ec-race-dropdown {
+	color: #333333;
+  	background-color: #FAA634;
+	border-color: #ddd;	
+	width: 50%;
+	margin: 0 auto 30px auto;
+	
+}
+
+.ec-race-dropdown ul {
+	padding:2px 5px;
+	position: relative; 
+	height:auto;	
+	text-align: left; 
+	width: 100%;
+	z-index: 99;
+}
+
+.ec-race-dropdown ul li {
+	padding: 5%;
+	
+}
+
+#ec-race-collapse {
+	display: none;
+	list-style-type:none;
+	margin:0;
+	padding: 0 0 0 17.5%;
+	position: absolute ;
+	top: 100%;
+	right: 0;
+	width: 100%;
+	background-color: #FAA634;
+}
+
+
+.ec.race-dropdown ul ul li {
+	background-color: #FAA634;
+}
+
+.ec-arrow-down {
+	margin-bottom: 0;
+	margin-top: 4px;
+}
+
 .ec-profile-image {
 	float: left;
 	width: 24px;
 	height: auto;
-	
-	
 }
 
 .ec-image {
-		float: left;
-		margin: 0;
-		
+	float: left;
+	margin: 0;	
 }
 
 .ec-panel-wrap {
@@ -25,84 +75,16 @@
 	clear: both;
 }
 
-.ec-arrow-down {
-	margin-bottom: 0;
-	margin-top: 4px;
 
-	 
-}
 
 
 .ec-name {
 	float: left;	
-	width: 60%;
+	width: 75%;
 	height: auto;
 	padding-top: 5px;
 	padding-left: 8px;
 }
-
-
-.ec-wrapper {
-	width: 95%;
-	margin: 0 auto;
-	padding: 2.5%;	
-}
-
-.ec-race-dropdown {
-	color: #333333;
-  	background-color: #FAA634;
-	border-color: #ddd;	
-	
-	width: 50%;
-	margin: 0 auto 30px auto;
-}
-
-.ec-race-dropdown ul {
-	padding:2px 5px;
-  position: relative; 
-  height:auto;	
-  text-align: left; 
-  width: 100%;
-  
-}
-
-.ec-race-dropdown ul li {
-	padding: 5%;
-	
-}
-
-.ec-race-dropdown ul ul {
-	list-style-type:none;
-	margin:0;
-	padding: 0 0 0 17.5%;
-	position: absolute;
-	top: 100%;
-	right: 0;
-	visibility:hidden;
-	opacity:0;
-	transition:visibility 0s linear 0.5s,opacity 0.5s linear;	
-	width: 100%;
-	background-color: #FAA634;
-}
-
-.ec-race-dropdown ul li:hover > ul, .ec-race-dropdown ul li:active > ul {
-		 visibility:visible;
-  opacity:0.9;
-  transition-delay:0s;
-  background-color: #FAA634;
-}
-
-.ec.race-dropdown ul ul li {
-	background-color: #FAA634;
-}
-
-
-.ec-panel-wrap:hover + .ec-collapse, .ec-panel-wrap:active + .ec-collapse {
-	display: block;	
-	position: absoulte;
-	
-}
-
 
 
 .ec-bullet-list {
@@ -117,43 +99,7 @@
 }
 
 
-.ec-hide { display: none }
-
-input[type="checkbox"]:checked + .ec-collapse {
-	display: block;
-	position: absolute;	
+.ec-collapse {
+	display: none;	
 }
 
-/*
-.ec-hide { display: none }
-
-.ec-toggle {
-  width: 100%;
-  display: block;
-  height: 2.5em;
-  line-height: 2.5em;
-  
-  background: #333;
-  border-radius: 3px;
-  color: #fff;
-  cursor: pointer;
-  text-align: center;
-  
-  transition: background .3s ease;
-}
-.ec-toggle:hover { background: #222 }
-.ec-inner {
-  text-align: left;
-  padding: 0 1em;
-  overflow: hidden;
-  max-height: 0;
-  
-  transition: max-height .6s ease;
-}
-.ec-inner *:first-child { margin-top: 1em }
-.ec-inner *:last-child { margin-bottom: 1em }
-
-.panel-group input[type="checkbox"]:checked + .ec-inner {
-  max-height: 350px; 
-  
-  */
