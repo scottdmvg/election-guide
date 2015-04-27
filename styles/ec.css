@@ -11,11 +11,11 @@
 
 .ec-race-dropdown {
 	color: #333333;
-  	background-color: #FAA634;
-	border-color: #ddd;	
+  	background-color: #f5f5f5;
+	
 	width: 50%;
 	margin: 0 auto 30px auto;
-	
+	color: #6b8cbd;
 }
 
 .ec-race-dropdown ul {
@@ -25,33 +25,48 @@
 	text-align: left; 
 	width: 100%;
 	z-index: 99;
+	border: 1px solid #ddd;	
+	border-radius: 3px;
 }
+
+
 
 .ec-race-dropdown ul li {
 	padding: 5%;
 	
 }
 
+.ec-race-dropdown ul li a {
+	color: #6b8cbd;	
+}
+
 #ec-race-collapse {
 	display: none;
 	list-style-type:none;
 	margin:0;
-	padding: 0 0 0 17.5%;
-	position: absolute ;
-	top: 100%;
-	right: 0;
+	padding: 5% 0 0 13%;
+	/*position: absolute ;  
+	top: 100%; 
+	right: 0; */
 	width: 100%;
-	background-color: #FAA634;
+	background-color: #f5f5f5;
+	border: none;
 }
 
 
-.ec.race-dropdown ul ul li {
-	background-color: #FAA634;
+	
+
+.ec-race-dropdown ul ul li {
+	background-color: #f5f5f5;
+	color: #6b8cbd;
+	margin-bottom: 4%;
+	padding-left: 0;	
 }
 
 .ec-arrow-down {
 	margin-bottom: 0;
 	margin-top: 4px;
+	color: #6b8cbd;
 }
 
 .ec-profile-image {
