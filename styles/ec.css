@@ -27,6 +27,7 @@
 	z-index: 99;
 	border: 1px solid #ddd;	
 	border-radius: 3px;
+	list-style-type:none;
 }
 
 
@@ -37,14 +38,17 @@
 }
 
 .ec-race-dropdown ul li a {
-	color: #6b8cbd;	
+	/*color: #6b8cbd;	*/
+	  text-transform: uppercase;
+	    color: #8e8e8e;
+  font-size: .85rem;
 }
 
 #ec-race-collapse {
-	display: none;
+	display: block;
 	list-style-type:none;
 	margin:0;
-	padding: 5% 0 0 13%;
+	padding: 5% 0 0 0;
 	/*position: absolute ;  
 	top: 100%; 
 	right: 0; */
@@ -58,20 +62,38 @@
 
 .ec-race-dropdown ul ul li {
 	background-color: #f5f5f5;
-	color: #6b8cbd;
-	margin-bottom: 4%;
-	padding-left: 0;	
+	margin-bottom: 0;
+	padding: 5%;
+	border-bottom: 1px solid #e5e5e5;
+	
 }
+
+
+.ec-race-dropdown ul ul li a {
+	  
+  padding: 4% 0 4% 6%;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-right: 15px;
+	
+}
+
+
+
 
 .ec-arrow-down {
 	margin-bottom: 0;
-	margin-top: 4px;
+	margin-top: 15px;
 	color: #6b8cbd;
+}
+
+#ec-nav-arrow-down {
+	color: #8e8e8e;
 }
 
 .ec-profile-image {
 	float: left;
-	width: 24px;
+	width: auto;
 	height: auto;
 }
 
@@ -95,12 +117,18 @@
 
 .ec-name {
 	float: left;	
-	width: 75%;
+	width: 70%;
 	height: auto;
 	padding-top: 5px;
 	padding-left: 8px;
+	line-height: 20px;
 }
 
+
+.ec-subheading {
+	font-weight: bold;
+	padding-bottom: 2.5%;
+}
 
 .ec-bullet-list {
 	list-style: disc;
@@ -116,5 +144,34 @@
 
 .ec-collapse {
 	display: none;	
+}
+
+
+
+/*  DESIGN TESTING
+.ec-collapse	{
+	display:block !important;	
+}
+*/
+
+
+.ec-race-dropdown {
+ padding: 2px 5px;
+ position: relative;
+ height: auto;
+ text-align: left;
+ width: 100%;
+ z-index: 99;
+ border: 1px solid #ddd;
+ border-radius: 3px;
+}
+
+#ec-race-menu {
+    cursor:pointer;
+    padding: 5px 0;
+}
+
+.voters-guide-title {
+    text-align:center;
 }
 
