@@ -87,12 +87,14 @@
 }
 
 
+
 .ec-arrow-down {
 	margin-bottom: 0;
 	margin-top: 15px;
 	margin-right: 4% !important;
 	width: 10% !important;
 	color: #6b8cbd;
+	float: left;
 }
 
 #ec-nav-arrow-down {
@@ -154,6 +156,21 @@
 	display: none;	
 }
 
+
+.ec-contact-links {
+	padding: 5% 2%;
+	width: 100%	
+}
+
+.ec-contact-links li  {
+	list-style: none;
+	margin-bottom: 5%;
+	
+}
+
+.ec-contact-links li a {
+	color: #6b8cbd;	
+}
 
 
 /*  DESIGN TESTING
