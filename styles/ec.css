@@ -46,7 +46,7 @@
 
 
 #ec-race-collapse {
-	display: block;
+	display: none;
 	list-style-type:none;
 	margin:0;
 	padding: 5% 0 0 0;
@@ -142,7 +142,7 @@
 	list-style: disc;
 	width: 90%;
 	padding: 2%;
-	margin-left: 10px;
+	margin-left: 2%;
 }
 
 .ec-bullet-list li {
