@@ -163,7 +163,8 @@
 
 .ec-contact-links {
 	padding: 5% 2%;
-	width: 100%	
+	width: 96%;	
+	margin-left: 0 !important;
 }
 
 .ec-contact-links li  {
