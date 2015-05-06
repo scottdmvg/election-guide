@@ -182,6 +182,13 @@
 }
 
 
+.seventy {
+	font-style: italic;
+}
+.seventy a {
+	color: #6b8cbd;	
+}
+
 /*  DESIGN TESTING
 .ec-collapse	{
 	display:block !important;	
