@@ -144,11 +144,15 @@
 	padding-bottom: 2.5%;
 }
 
+.ec-collapse ul {
+	margin: 0;	
+}
+
 .ec-bullet-list {
 	list-style: disc;
 	width: 90%;
 	padding: 2%;
-	margin-left: 2%;
+	margin-left: 5% !important;
 }
 
 .ec-bullet-list li {
@@ -169,7 +173,7 @@
 
 .ec-contact-links li  {
 	list-style: none;
-	margin-bottom: 5%;
+	margin-bottom: 0;
 	
 }
 
